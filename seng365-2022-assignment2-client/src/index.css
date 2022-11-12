@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: beige;
+  position: static;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  min-height: 50px;
+  border-bottom-style: dashed;
+  border-color: darkgray;
+  border-width: thin;
+  align-content: center;
+  background-color: skyblue;
+  margin-top: -110px;
+  margin-left: -2%;
+  z-index: 1049;
+  justify-content: space-between;
+}
+
+.navbar button {
+  border: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.homeLink {
+  float: right;
+  width: 65%;
+  min-width: fit-content;
+  text-align: center;
+}
+
+.pageTitle {
+  width: 30%;
+  float: left;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.account {
+  width: 20%;
+  height: 120px;
+  float: right;
+  margin-right: -3%;
+}
+
+.account div {
+  float: right;
+  margin-right: 5%;
+  margin-top: 10px;
+  min-width: max-content;
+}
+
+.account ul {
+  list-style: none;
+  float: left;
+  padding-top: 15px;
+  padding-right: 5px;
+  horiz-align: right;
+}
+
+.account ul h4 {
+  margin: 0;
+}
+
+.account ul li {
+  margin: 0;
+  font-size: 16px;
+  horiz-align: right;
+  text-align: right;
+}
+
+.account img {
+  padding-left: 5px;
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.bodyRoot {
+  position: absolute;
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 105px;
+}
+
+.root {
+  text-align: -webkit-center;
+}
+
+.viewAccountLink {
+  color: white;
+}
+
+.viewAccountLink:hover {
+  color: cornflowerblue;
+}
