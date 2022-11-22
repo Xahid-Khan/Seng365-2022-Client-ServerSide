@@ -5,7 +5,6 @@ The full implementation for the Assignment 1 API has been provided here to help 
 We expect your website to work with this API (it will be tested as such), so it is suggested to use this and not your own implementation. 
 
 Feel free to explore this code-base to learn more about express and TypeScript.
-If you encounter any issues please reach out to Morgan English (morgan.english@canterbury.ac.nz).
 
 ## Running locally
 
